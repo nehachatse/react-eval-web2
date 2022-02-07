@@ -1,0 +1,31 @@
+.list {
+  width: 80%;
+  height: 40px;
+  text-align: justify;
+  margin: 1rem auto;
+  border: 3px solid orchid;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 30px;
+  color: orchid;
+}
+
+.btn_div {
+  float: right;
+}
+
+.btn_div > button {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  border-radius: 30px;
+  background-color: white;
+}
+.btn_div > button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.cancel {
+  border: 5px solid red;
+  color: red;
+}
